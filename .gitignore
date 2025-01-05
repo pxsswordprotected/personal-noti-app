@@ -90,3 +90,8 @@ typings/
 
 # Electron-Forge
 out/
+
+node_modules/
+out/
+coverage/
+.DS_Store
