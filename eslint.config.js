@@ -1,4 +1,4 @@
-export default [
+module.exports = [
     {
         files: ["**/*.js"],
         languageOptions: {
@@ -10,9 +10,6 @@ export default [
             es2021: true,
             node: true,
             jest: true,
-        },
-        rules: {
-            // n/a rn
         },
         extends: [
             "eslint:recommended",
