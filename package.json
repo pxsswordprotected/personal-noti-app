@@ -14,7 +14,9 @@
     "lint:fix": "eslint src test --fix",
     "prettier": "prettier src test --check",
     "prettier:fix": "prettier src test --write",
-    "format": "npm run prettier:fix && npm run lint:fix"
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "test": "jest"
+    
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.6.0",
