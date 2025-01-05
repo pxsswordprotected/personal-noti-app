@@ -10,13 +10,12 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
+    "test": "jest",
     "lint": "eslint src test",
     "lint:fix": "eslint src test --fix",
     "prettier": "prettier src test --check",
     "prettier:fix": "prettier src test --write",
-    "format": "npm run prettier:fix && npm run lint:fix",
-    "test": "jest"
-    
+    "format": "npm run prettier:fix && npm run lint:fix"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.6.0",
